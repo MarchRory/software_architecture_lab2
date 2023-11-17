@@ -10,7 +10,7 @@
 	const { pageScroll } = useScroll();
 	const { loading } = useLoading();
 	router.beforeEach((to, from, next) => {
-		pageScroll.value = -1;
+		pageScroll.value = 0;
 
 		if (main.value) {
 			scrollStore.update(from.fullPath, main.value.scrollTop);
