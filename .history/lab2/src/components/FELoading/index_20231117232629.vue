@@ -1,0 +1,44 @@
+<script setup lang="ts"></script>
+
+<template>
+	<div class="FE">
+		<div class="ball"></div>
+	</div>
+</template>
+
+<style scoped>
+	.FE {
+		z-index: 9999;
+		background-image: radial-gradient(circle at 50%, transform 50px);
+		@apply fixed w-full h-full bg-emerald-300 flex items-center justify-center;
+		animation-name: expand;
+		animation-duration: 0.8s;
+		animation-timing-function: ease-in;
+		animation-fill-mode: forwards;
+		animation-delay: 1.5s;
+	}
+	.ball {
+		@apply absolute w-16 h-16 rounded-full bg-white;
+		animation-name: beat, contract;
+		animation-direction: alternate, normal;
+		animation-delay: 0s, 1.5s;
+		animation-duration: 1.5s, 0.3s;
+		animation-timing-function: ease-in-out, ease-in;
+		animation-iteration-count: 1, 1;
+		animation-fill-mode: forwards, forwards;
+	}
+	@keyframes beat {
+		50% {
+			transform: translateY(25vh);
+		}
+	}
+	@keyframes contract {
+		100% {
+			transform: scale(0);
+		}
+	}
+	@keyframes expand {
+		100% {
+		}
+	}
+</style>
