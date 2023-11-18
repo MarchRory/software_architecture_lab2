@@ -6,8 +6,8 @@ import { getOOPFiles, getEventsSysFiles, getPipFiles, getMainChildFiles } from '
  * @param fn 
  * @returns 
  */
-const getJavaCode = (fn: Function): Promise<string[]> => {
-    const paths = fn && fn()
+const getJavaCode = async (fn: Function): Promise<string[]> => {
+    const paths = fn && await fn()
     const codes: string[] = []
     return new Promise(async (resolve) => {
         await paths.forEach((path: string) => {
