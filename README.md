@@ -10,28 +10,30 @@
 - Tailwindcss
 - Vite
 
-# Loading
-优雅的页面加载动画
-
-- 初次进入
-  [<img scr="https://github.com/MarchRory/software_architecture_lab2/blob/master/public/FEAnimation.png" alt="first_enter">](https://github.com/MarchRory/software_architecture_lab2/blob/master/public/FEAnimation.png)
-- 路由切换
-  <img src="https://github.com/MarchRory/software_architecture_lab2/blob/master/public/routerAnimation.png" alt="router_change">
-
-# Home
-<img scr="https://github.com/MarchRory/software_architecture_lab2/blob/master/public/home.png" alt="home">
-
-# Page Example
-- 风格
-  <img scr="https://github.com/MarchRory/software_architecture_lab2/blob/master/public/page.png" alt="type">
-  
-- Java版源码
-  <img scr="https://github.com/MarchRory/software_architecture_lab2/blob/master/public/sourceCode.png" alt="code">
-
-- 文件导入运行
-  <img scr="https://github.com/MarchRory/software_architecture_lab2/blob/master/public/test.png" alt="test">
-  
 # Run
 ```shell
 npm run dev
 ```
+
+# Loading
+优雅的页面加载动画
+
+- 初次进入
+  ![image](https://github.com/MarchRory/software_architecture_lab2/blob/master/public/FEAnimation.png)
+- 路由切换
+  ![image](https://github.com/MarchRory/software_architecture_lab2/blob/master/public/routerAnimation.png)
+
+# Home
+  ![image](https://github.com/MarchRory/software_architecture_lab2/blob/master/public/home.png)
+
+# Page Example
+- 风格
+  ![image](https://github.com/MarchRory/software_architecture_lab2/blob/master/public/page.png)
+  
+- Java版源码
+  ![image](https://github.com/MarchRory/software_architecture_lab2/blob/master/public/sourceCode.png)
+
+- 文件导入运行
+  ![image](https://github.com/MarchRory/software_architecture_lab2/blob/master/public/test.png)
+  
+
