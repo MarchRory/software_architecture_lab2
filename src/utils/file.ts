@@ -4,7 +4,7 @@ const reader = new FileReader();
  * @param directory 文件夹绝对路径
  */
 export const getPipFiles = () => {
-    const fileList = import.meta.glob('/src/assets/sourceJavaCode/src/Pip/*.java')
+    const fileList = import.meta.glob('/src/assets/sourceJavaCode/src/Pip/*.txt')
     return Object.values(fileList).map((item) => item.name)
 }
 
@@ -13,7 +13,7 @@ export const getPipFiles = () => {
  * @returns 
  */
 export const getEventsSysFiles = () => {
-    const fileList = import.meta.glob('/src/assets/sourceJavaCode/src/EventSystem/*.java')
+    const fileList = import.meta.glob('/src/assets/sourceJavaCode/src/EventSystem/*.txt')
     return Object.values(fileList).map((item) => item.name)
 }
 
@@ -22,7 +22,7 @@ export const getEventsSysFiles = () => {
  * @returns 
  */
 export const getOOPFiles = () => {
-    const fileList = import.meta.glob('/src/assets/sourceJavaCode/src/OOP/*.java')
+    const fileList = import.meta.glob('/src/assets/sourceJavaCode/src/OOP/*.txt')
     return Object.values(fileList).map((item) => item.name)
 }
 
@@ -31,7 +31,7 @@ export const getOOPFiles = () => {
  * @returns 
  */
 export const getMainChildFiles = () => {
-    const fileList = import.meta.glob('/src/assets/sourceJavaCode/src/MainAndSub/*.java')
+    const fileList = import.meta.glob('/src/assets/sourceJavaCode/src/MainAndSub/*.txt')
     return Object.values(fileList).map((item) => item.name)
 }
 
