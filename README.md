@@ -14,7 +14,7 @@
 优雅的页面加载动画
 
 - 初次进入
-  <img scr="https://github.com/MarchRory/software_architecture_lab2/blob/master/public/FEAnimation.png" alt="first_enter">
+  [<img scr="https://github.com/MarchRory/software_architecture_lab2/blob/master/public/FEAnimation.png" alt="first_enter">](https://github.com/MarchRory/software_architecture_lab2/blob/master/public/FEAnimation.png)
 - 路由切换
   <img src="https://github.com/MarchRory/software_architecture_lab2/blob/master/public/routerAnimation.png" alt="router_change">
 
