@@ -1,5 +1,5 @@
 # 软件体系结构实验2 任务3源码
-之前考试多, 一直复习没怎么碰代码, 趁这个机会狠狠速成一个web过过手瘾
+一个随便写写过手瘾的小玩具
 
 <div align="center"><h3><a href="https://marchrory.github.io/software_architecture_lab2/#/home" target="_blank">在线预览</a><h3></div>  
 
